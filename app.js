@@ -26,7 +26,8 @@ Ext.application({
     requires: [
         'Ext.MessageBox',
 		"Ext.data.TreeStore",
-		'Ext.dataview.NestedList'
+		'Ext.dataview.NestedList',
+		'Ext.form.Panel'
     ],
 
     views: ['Viewport','Main','Navigation'],

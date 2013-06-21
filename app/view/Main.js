@@ -38,10 +38,8 @@ var snv = Ext.define('SlideNav.view.Main', {
         items : [{
             title : 'Schedule',
             iconCls : 'list',
-            xtype : 'formpanel',
-			html : ['This is a very simple example of Facebook style slide navigation. ',
-			'The component is mostly developed with CSS3 animations and a small bit of javascript code. ',
-			'Use it freely in your Sencha Touch application'].join(''),
+            xtype : 'panel',
+			html : ['This is SlideNavs HTML'].join(''),
             styleHtmlContent : true,
             items : [{
                 xtype : 'titlebar',
@@ -82,11 +80,11 @@ var snv = Ext.define('SlideNav.view.Main', {
         },{
         	title:"Transportation",
 			xtype:"nestedlist",
-			iconCls: "home"
+			iconCls: "anchor"
         },{
         	title:"Internet",
 			xtype:"nestedlist",
-			iconCls: "home"
+			iconCls: "network"
         }]
     }
 });
